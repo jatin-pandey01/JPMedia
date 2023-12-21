@@ -7,6 +7,7 @@ import ChannelDetail from "./components/ChannelDetail";
 import SearchFeed from "./components/SearchFeed";
 
 function App() {
+  console.log("Hello",process.env.REACT_APP_RAPID_API_KEY);
   return (
     <BrowserRouter>
       <Box sx={{backgroundColor:'#000'}}>
